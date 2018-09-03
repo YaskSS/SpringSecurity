@@ -8,9 +8,20 @@
     <artifactId>spring-security</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <spring.mvc>4.0.0.RELEASE</spring.mvc>
+        <javax.servlet>3.0.1</javax.servlet>
+        <jstl.version>1.2</jstl.version>
+        <spring.securiry>3.2.0.RELEASE</spring.securiry>
+    </properties>
+
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.0.8.RELEASE</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
